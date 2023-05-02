@@ -73,3 +73,30 @@ h1 {
     background-color: white;
     transition: 0.4s ease-in-out;
 }
+
+@media only screen and (max-width: 1600px) {
+    h1 {
+        font-size: 70px;
+        margin-bottom: 50px;
+    }
+
+    #game {
+        width: 300px;
+    }
+
+    .squares {
+        width: 100px;
+        height: 100px;
+        font-size: 100px;
+    }
+
+    #reset {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 50px;
+    }
+}
